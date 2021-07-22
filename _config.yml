@@ -1,9 +1,9 @@
-title: Immaculate
+title: Johnathan Sun
 description: >
-  A beautiful, fast, AMP-compliant Jekyll theme based on Tufte CSS.
-url: "https://github.com/siawyoung/immaculate"
+  Student interested in philosophy, economics, and global development.
+url: "https://jsun.one"
 paginate:	2 # The number of posts to show per page on your homepage
-name: "Lau Siaw Young"
+name: "Johnathan"
 markdown: kramdown
 permalink: none
 kramdown:
