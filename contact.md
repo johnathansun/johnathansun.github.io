@@ -8,4 +8,4 @@ Reach out to me! I love to talk about everything from academic subjects to movie
 
 Email me at [me@jsun.one](mailto:me@jsun.one).
 
-Find me on [Instagram](https://www.instagram.com/johnathan.sun/) or [Facebook](https://www.facebook.com/johnathan.sun.7/) too (Messenger is great). Looking forward to connecting!
+Find me on [Instagram](https://www.instagram.com/johnathan.sun/) or [Facebook](https://www.facebook.com/johnathan.sun.7/) (Messenger is great). Looking forward to connecting!
