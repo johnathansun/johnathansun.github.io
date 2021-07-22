@@ -3,7 +3,7 @@ description: >
   Student interested in philosophy, economics, and global development.
 url: "https://jsun.one"
 paginate:	2 # The number of posts to show per page on your homepage
-name: "Johnathan"
+name: "Johnathan Sun"
 markdown: kramdown
 permalink: none
 kramdown:
