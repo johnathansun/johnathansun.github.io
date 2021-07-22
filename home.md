@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: page
 title: Home
 permalink: /
 ---
 
 # Hello!
+
+Bonjour!
