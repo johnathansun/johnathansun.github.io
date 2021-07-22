@@ -6,6 +6,6 @@ permalink: /contact/
 
 Reach out to me! I love to talk about everything from academic subjects to movies, books, and chess{% sidenote side3 I play and study a bit, but I am far from proficient. %}.
 
-Email me at [me@jsun.one](mailto:me@jsun.one)
+Email me at [me@jsun.one](mailto:me@jsun.one).
 
-Find me on [Instagram](https://www.instagram.com/johnathan.sun/) or [Facebook (Messenger is great)](https://www.facebook.com/johnathan.sun.7/) too. Looking forward to connecting!
+Find me on [Instagram](https://www.instagram.com/johnathan.sun/) or [Facebook](https://www.facebook.com/johnathan.sun.7/) too (Messenger is great). Looking forward to connecting!
