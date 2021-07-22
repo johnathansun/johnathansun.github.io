@@ -18,3 +18,5 @@ imperdiet dui, mollis elementum sem augue vel ipsum. Nulla lacinia arcu at quam
 lobortis, vitae interdum tellus fermentum. Cum sociis natoque penatibus et
 magnis dis parturient montes, nascetur ridiculus mus. Fusce sodales semper erat, eu fringilla ligula vulputate id. Maecenas quis libero pellentesque lacus
 egestas vehicula sit amet et neque. Nulla nec facilisis sem. Pellentesque rutrum elementum molestie.
+
+This site is adapted from the [Immaculate](https://github.com/siawyoung/immaculate) theme and by extension, [Tufte CSS](https://github.com/edwardtufte/tufte-css). Many thanks to these developers for their beautiful work. 
