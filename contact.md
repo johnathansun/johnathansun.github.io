@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-Reach out to me! I love to talk about everything from academic subjects to movies, books, and chess.{% sidenote side3 I play and study a bit, but am far from proficient. %}
+Reach out to me! I love to talk about everything from academic subjects to movies, books, and chess.<label for="sn-bad-at-chess" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-bad-at-chess" class="margin-toggle"/><span class="sidenote">I play and study a bit, but am far from proficient.</span>
 
 Email me at [me@jsun.one](mailto:me@jsun.one).
 
