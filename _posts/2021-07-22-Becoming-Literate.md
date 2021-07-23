@@ -7,7 +7,7 @@ During this pandemic, I’ve tried to rekindle a habit of consistently reading f
 
 ### Books I’ve Read
 
-- *Metaphysics: A Contemporary Introduction*{% sidenote side3 4th ed. %}  by Michael Loux and Thomas Crisp, July 2021
+- *Metaphysics: A Contemporary Introduction*<label for="sn-4th-ed" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4th-ed" class="margin-toggle"/><span class="sidenote">4th ed.</span>  by Michael Loux and Thomas Crisp, July 2021
 - *Le Rouge et le Noir* by Stendhal,{% sidenote side4 A pseudonym of Marie-Henri Beyle. %}  July 2021
 - *Logic* by Wilfrid Hodges, July 2021
 - *Pride and Prejudice* by Jane Austen, June 2021
