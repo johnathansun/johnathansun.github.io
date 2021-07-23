@@ -3,17 +3,17 @@ layout: post
 title: Becoming Literate
 ---
 
-During this pandemic, I’ve tried to rekindle a habit of consistently reading for an hour a day. Over the years, I accumulated a large stack of books to get through, and a tiny but consistent nagging in my mind finally pushed me to commit to a schedule. Not only is this post an outlet to share what I’ve been reading and what I found fascinating, it’s also an accountability tactic. I’ll update this post as I keep on reading, so I’m failing if there are no recent edits. <label for="sn-extensive-use-of-sidenotes" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-extensive-use-of-sidenotes" class="margin-toggle"/><span class="sidenote">This is a sidenote.</span>
+During this pandemic, I’ve tried to rekindle a habit of consistently reading for an hour a day. Over the years, I accumulated a large stack of books to get through, and a tiny but consistent nagging in my mind finally pushed me to commit to a schedule. Not only is this post an outlet to share what I’ve been reading and what I found fascinating, it’s also an accountability tactic. I’ll update this post as I keep on reading, so I’m failing if there are no recent edits.
 
 ### Books I’ve Read
 
 - *Metaphysics: A Contemporary Introduction*<label for="sn-4th-ed" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4th-ed" class="margin-toggle"/><span class="sidenote">4th ed.</span>  by Michael Loux and Thomas Crisp, July 2021
-- *Le Rouge et le Noir* by Stendhal,{% sidenote side4 A pseudonym of Marie-Henri Beyle. %}  July 2021
+- *Le Rouge et le Noir* by Stendhal,<label for="sn-stendhal" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-stendhal" class="margin-toggle"/><span class="sidenote">A pseudonym of Marie-Henri Beyle.</span>  July 2021
 - *Logic* by Wilfrid Hodges, July 2021
 - *Pride and Prejudice* by Jane Austen, June 2021
-- *An Essay on Human Understanding*{% sidenote side5 Hackett abridged edition by Kenneth P. Winkler. %}  by John Locke, June 2021
+- *An Essay on Human Understanding*<label for="sn-locke-ed" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-locke-ed" class="margin-toggle"/><span class="sidenote">Abridged edition by Kenneth P. Winkler.</span>  by John Locke, June 2021
 - *‌Simulacra and Simulation* by Jean Baudrillard, June 2021
-- *As I Lay Dying*{% sidenote side6 Corrected text by Noel Polk. %}  by William Faulkner, April 2021
+- *As I Lay Dying*<label for="sn-aild-ed" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-aild-ed" class="margin-toggle"/><span class="sidenote">Corrected text by Noel Polk.</span> by William Faulkner, April 2021
 - *The Secret History*{% sidenote side7 Thanks JJ!%}  by Donna Tartt, April 2021
 - *The Ideological Origins of the American Revolution* by Bernard Bailyn, March 2021
 - *Thinking Fast and Slow* by Daniel Kahneman, January 2021
