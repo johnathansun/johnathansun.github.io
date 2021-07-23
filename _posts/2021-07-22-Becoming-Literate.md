@@ -12,7 +12,7 @@ During this pandemic, I’ve tried to rekindle a habit of consistently reading f
 - *Logic* by Wilfrid Hodges, July 2021
 - *Pride and Prejudice* by Jane Austen, June 2021
 - *An Essay on Human Understanding*<label for="sn-locke-ed" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-locke-ed" class="margin-toggle"/><span class="sidenote">Abridged edition by Kenneth P. Winkler.</span>  by John Locke, June 2021
-- *‌Simulacra and Simulation* by Jean Baudrillard, June 2021
+- *Simulacra and Simulation* by Jean Baudrillard, June 2021
 - *As I Lay Dying*<label for="sn-aild-ed" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-aild-ed" class="margin-toggle"/><span class="sidenote">Corrected text by Noel Polk.</span> by William Faulkner, April 2021
 - *The Secret History*<label for="sn-tsh-jj" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-tsh-jj" class="margin-toggle"/><span class="sidenote">Thanks JJ!</span> by Donna Tartt, April 2021
 - *The Ideological Origins of the American Revolution* by Bernard Bailyn, March 2021
