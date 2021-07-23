@@ -240,13 +240,13 @@ span.newthought { font-variant: small-caps;
                   font-size: 1.2em; }
 
 // input.margin-toggle { display: none; }
-.margin-toggle { display: none; }
+input.margin-toggle { display: none; }
 
 // label.sidenote-number { display: inline; }
-.sidenote-number { display: inline; }
+label.sidenote-number { display: inline; }
 
 // label.margin-toggle:not(.sidenote-number) { display: none; }
-.margin-toggle:not(.sidenote-number) { display: none; }
+label.margin-toggle:not(.sidenote-number) { display: none; }
 
 @media (max-width: 760px) { .margin-toggle:not(.sidenote-number) { display: none; }
                             .sidenote, .marginnote { display: none; }
