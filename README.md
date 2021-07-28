@@ -1,6 +1,6 @@
-# Immaculate
+# The personal website of Johnathan Sun.
 
-The personal website of Johnathan Sun. Find at [jsun.one](https://jsun.one).
+Visit at [jsun.one](https://jsun.one).
 
 ## Colophon
 
