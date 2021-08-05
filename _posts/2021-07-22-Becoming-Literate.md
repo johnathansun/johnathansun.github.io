@@ -7,6 +7,8 @@ During this pandemic, I’ve tried to rekindle a habit of consistently reading f
 
 ### Books I’ve Read
 
+- *When Einstein Walked with Gödel: Excursions to the Edge of Thought*<label for="sn-einstein-godel-myka" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-einstein-godel-myka" class="margin-toggle"/><span class="sidenote">Thanks Myka!</span> by Jim Holt, August 2021
+- *Ultralearning* by Scott H. Young, August 2021
 - *The Economics of Public Issues*<label for="sn-20th-ed" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-20th-ed" class="margin-toggle"/><span class="sidenote">20th ed.</span> by Roger Miller, Daniel Benjamin, and Douglass North, July 2021
 - *Metaphysics: A Contemporary Introduction*<label for="sn-4th-ed" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4th-ed" class="margin-toggle"/><span class="sidenote">4th ed.</span> by Michael Loux and Thomas Crisp, July 2021
 - *Le Rouge et le Noir* by Stendhal,<label for="sn-stendhal" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-stendhal" class="margin-toggle"/><span class="sidenote">A pseudonym of Marie-Henri Beyle.</span> July 2021
