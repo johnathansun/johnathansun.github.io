@@ -7,6 +7,7 @@ During this pandemic, I’ve tried to rekindle a habit of consistently reading f
 
 ### Books I’ve Read
 
+- *Chaos: Making a New Science* by James Gleick, September 2021
 - *When Einstein Walked with Gödel: Excursions to the Edge of Thought*<label for="sn-einstein-godel-myka" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-einstein-godel-myka" class="margin-toggle"/><span class="sidenote">Thanks Myka!</span> by Jim Holt, August 2021
 - *Ultralearning* by Scott H. Young, August 2021
 - *The Economics of Public Issues*<label for="sn-20th-ed" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-20th-ed" class="margin-toggle"/><span class="sidenote">20th ed.</span> by Roger Miller, Daniel Benjamin, and Douglass North, July 2021
