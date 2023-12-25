@@ -2,22 +2,50 @@
 <html>
 <head>
     <title>Main Page</title>
+    <link rel="stylesheet" href="tufte.css"/>
     <style>
         .button-container {
             display: flex;
+            flex-direction: row;
             justify-content: space-around;
-            margin-top: 20px;
+            align-items: center;
         }
-        .button-container button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
+
+        button {
+        background-color: #e7e7e7;
+        font-family: 'et-book';
+        color: #333;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
         }
+        button:hover {
+            background-color: #d3d3d3;
+        }
+
+    
     </style>
 </head>
 <body>
     <h1>Merry Christmas!</h1>
-    <p>I was going to make some art, but I think algorithmically generated art is on the rise. However, just generating images is no fun. We can create art together with computers. Click on the buttons below to see the different models.</p>
+    <p>My first idea was to make some art. 
+        However, I couldn't easily find art supplies. 
+        Besides, we have a lot of art anyways, 
+        and everyone is always going on about how AI-generated art is going to replace human artists. 
+        There is just a wash of beautiful AI-generated art out on the web, 
+        but there aren't as many pieces done in collaboration between humans and machines. 
+        So, I decided to tailor an implementation of a <a href="https://arxiv.org/pdf/1704.03477.pdf">paper</a> on recurrent neural networks (RNNs) 
+        from 2017 so we can make art in collaboration with artificial intelligence.
+    </p>
+    <p> Hence, I present to you a few cool tools that you can use anytime. 
+        I like to think of it as assisted doodling. Merry Christmas, and have fun!
+    </p>
+    <p>Love you lots,</p>
+    <p>Johnathan</p>
+
+    <h2>The Goods</h2>
     <div class="button-container">
         <button onclick="location.href='predict.html'">Predict what you draw</button>
         <button onclick="location.href='interp.html'">Interpolate two drawings</button>
