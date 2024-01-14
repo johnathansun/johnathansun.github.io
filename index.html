@@ -3,54 +3,173 @@
 <head>
     <title>Main Page</title>
     <link rel="stylesheet" href="tufte.css"/>
-    <style>
-        .button-container {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-        }
-
-        button {
-        background-color: #e7e7e7;
-        font-family: 'et-book';
-        color: #333;
-        padding: 10px 20px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        }
-        button:hover {
-            background-color: #d3d3d3;
-        }
-
-    
-    </style>
 </head>
 <body>
-    <h1>Merry Christmas!</h1>
-    <p>My first idea was to make some art. 
-        However, I couldn't easily find art supplies. 
-        Besides, we have a lot of art anyways, 
-        and everyone is always going on about how AI-generated art is going to replace human artists. 
-        There is just a wash of beautiful AI-generated art out on the web, 
-        but there aren't as many pieces done in collaboration between humans and machines. 
-        So, I decided to tailor an implementation of a <a href="https://arxiv.org/pdf/1704.03477.pdf">paper</a> on recurrent neural networks (RNNs) 
-        from 2017 so we can make art in collaboration with artificial intelligence.
-    </p>
-    <p> Hence, I present to you a few cool tools that you can use anytime. 
-        I like to think of it as assisted doodling. Merry Christmas, and have fun!
-    </p>
-    <p>Love you lots,</p>
-    <p>Johnathan</p>
+    <h1 id="tufte-css">Hello!</h1>
+    <section>
+        <p>
+            My name is Johnathan Sun. 
+            I'm a student at <a href="https://college.harvard.edu/">Harvard College</a> 
+            in the Class of 2026 studying <a href="https://seas.harvard.edu/applied-mathematics">Applied Mathematics</a>. 
+        </p>
+        <p>
+            My interests range from policy-oriented economics research to techniques in machine learning. 
+            I am particularly interested in developing and applying quantitative methods in the social sciences.
+        </p>
+        <p>
+            This is a brief overview of a selection of projects from class and extracurriculars over the past year and a half.
+            This does not include current research projects at Harvard Law School and in the Economics Department.
+        </p>
+    </section>
+    <section>
+        <h2>Technical Projects</h2>
+        <h3>Reinforcement Learning (RL) with ICU Patient Data</h3>
+        <p>
+            We use the <a href="https://physionet.org/content/mimiciv/2.2/">MIMIC-IV</a> 
+            ICU dataset of 40,000+ patients to 
+            define a finite-horizon tabular MDP using max-entropy inverse RL, 
+            where clustered vital signs are states and commonly used therapies are actions.
+        </p>
+        <figure>
+            <label for="rl-rewards-and-crit" class="margin-toggle">&#8853;</label><input type="checkbox" id="rl-rewards-and-crit" class="margin-toggle"/><span class="marginnote">
+                Left: Rewards learned after inverse RL.
+                Right: Plot of critical features showing the five best and worst states. States are on the horizontal axis and patient vitals are on the vertical axis. 
+            </span>
+            <img src="img/rewards_and_crit.png" alt="Reward and critical features plots" />
+        </figure>
+        <p>
+            <label for="rl-training-loss" class="margin-toggle">&#8853;</label><input type="checkbox" id="rl-training-loss" class="margin-toggle"/><span class="marginnote"><img src="img/training_loss.png" alt="Training loss of DPPO"/>
+                Training loss of Delayed Proximal Policy Optimization (DPPO)
+            </span> 
+            
+            Feedback from such an MDP may be significantly delayed across episodes. 
+            Hence, we applied RL algorithms with new delay-adapted estimators 
+            and evaluated their performance against theoretical guarantees.
+            Our project is, to our knowledge, the first implementation of these delay-adapted methods 
+            to a real-world dataset.
+        </p>
+        <p>
+            Collaborators: Jayden Personnat and Victoria Li. 
+            Paper available <a href="https://drive.google.com/file/d/1J51ayMpHrilyskApj-229rZ7iVXuQg6f/view?usp=sharing"<a>here</a> 
+            and code available <a href="https://github.com/jaydenpersonnat/cs184-project">here</a>.
+            <i>December 2023.</i>
+        </p>
 
-    <h2>The Goods</h2>
-    <div class="button-container">
-        <button onclick="location.href='predict.html'">Predict what you draw</button>
-        <button onclick="location.href='interp.html'">Interpolate two drawings</button>
-        <button onclick="location.href='multi_vae.html'">Mimic your drawings</button>
-        <button onclick="location.href='multi_predict.html'">Get multiple predictions</button>
-    </div>
+        <h3>Leontief Input-Output Models</h3>
+        <p>
+            In this expository piece, we introduce and motivate this category of models, 
+            prove that there exists a unique, positive solution, and use 
+            <a href="https://www.oecd.org/sti/ind/input-outputtables.htm">2021 OECD data</a> 
+            to model dependencies between sectors in the contemporary US economy.
+        </p>
+        <figure>
+            <label for="math-input-output" class="margin-toggle">&#8853;</label><input type="checkbox" id="math-input-output" class="margin-toggle"/><span class="marginnote">
+                2018 US economy measured in 2021 dollars. Green indicates the row sector has a higher level of dependence on the column sector. 
+                That is, the row sector needs more output (in millions of USD) from the column sector to produce one million dollars worth of their own products. 
+            </span>
+            <img src="img/input_output.png" alt="Input-output model of the 2018 US economy" />
+        </figure>
+        <p>
+            Collaborators: Victoria Li. Paper available <a href="https://drive.google.com/file/d/1JMT2t_i5WC0o2zqx6ztFwKaAfzJvSV_0/view?usp=sharing">here</a>.
+            <i>December 2022.</i>
+        </p>
+
+        <h3>OCaml Interpreter</h3>
+        <p>
+            I implemented two meta-circular interpreters for a subset of OCaml using 
+            substitution semantics and dynamic environment semantics.
+            The interpreters support lexical environment semantics and operations on floats and bignums. 
+            Code available <a href="https://github.com/cs51/project-2023-johnathansun">here</a>.
+            <i>May 2023.</i>
+        </p>
+    </section>
+
+    <section>
+        <h2>Economics Projects</h2>
+        <h3>Milestones in Energy Commodity Markets</h3>
+        <p>
+            In collaboration with the 
+            <a href="https://www.energy.gov/oced/office-clean-energy-demonstrations">Office of Clean Energy Demonstrations</a> at the
+             US Department of Energy, we investigated the determinants of capital formation
+             in energy commodity markets, particularly natural gas. 
+             We show that energy infrastructure clusters around trading hubs,
+             that price and volume strongly influence later construction expenditures,
+             and that futures trading is significantly correlated with infrastructure investment.
+        </p>
+        <figure>
+            <label for="ec-ng" class="margin-toggle">&#8853;</label><input type="checkbox" id="ec-ng" class="margin-toggle"/><span class="marginnote">
+                Major natural gas pipelines serving industrial and residential uses are built
+                very close to trading hubs. 
+            </span>
+            <img src="img/hub_clustering.png" alt="Clustering of natural gas pipelines around trading hubs" />
+        </figure>
+        <figure>
+            <label for="ec-futures" class="margin-toggle">&#8853;</label><input type="checkbox" id="ec-futures" class="margin-toggle"/><span class="marginnote">
+                We plot the volume of natural gas futures traded on NYMEX against construction spending figures from the American Gas Association.
+            </span>
+            <img src="img/trading_vol.png" alt="Futures trading volume and natural gas construction spending" />
+        </figure>
+        <p>
+            Project lead: Johnathan Sun. Collaborators: Rohan Nambiar, Avani Rai, Cris Rosas, Jaan Rothschild, Grace Yang. Paper available here.
+            <i>January 2024.</i>
+        </p>
+
+        <h3>Impact of COVID-19 on Air Traffic</h3>
+        <p>
+            In collaboration with the 
+            <a href="https://www.oig.dot.gov/">Office of the Inspector General </a>
+            at the US Department of Transportation, we investigated the impacts of the pandemic on air travel to small and rural communities. 
+            We analyzed route-level data to discern changes in network dynamics, flight quality, price, and other characteristics.
+            We find, for instance, that a few popular vacation destinations were highly disproportionately responsible
+            for the "recovery" of air traffic to small communities in the summer of 2021.
+        </p>
+        <figure class="fullwidth">
+            <img src="img/top5_dest.png" alt="Top five most visited airports in small communities" />
+        </figure>
+        <p>
+            In the figure below, we plot the five most frequently visited airports in communities in the bottom quintile of population. 
+            The vacation destinations Boseman and Destin have strong spikes in Summer 2021.
+        </p>
+        <p>
+            Project lead: Elliott Mokski. Collaborators: Julien Berman, Abhay Duggirala, Brooke Newbury, Gabriel Sun. 
+            Paper available <a href="https://drive.google.com/file/d/1mxf-m9Aa9GHbfiPvrii86_0bMIzF1AnF/view?usp=sharing">here</a>.
+            <i>December 2022.</i>
+        </p>
+    </section>
+
+    <section>
+        <h2>Other Projects</h2>
+        <h3>Apologies for Historical Injustices</h3>
+        <p>
+            Official state apologies for past injustices have become more frequent since 1990.
+            However, some apologies are much more controversial than others.
+            I use the US Congressional apology for slavery in 2008 as a case study to examine
+            why such apologies are difficult.
+            I investigate why people object to these acts, how their objections are grounded in moral arguments,
+            and how we can reshape the notion of apology as a more effective gesture of remembrance and acknowledgement.
+        </p>
+        <figure>
+            <label for="phil-apologies" class="margin-toggle">&#8853;</label><input type="checkbox" id="phil-apologies" class="margin-toggle"/><span class="marginnote">
+                Apologies have become more frequent since 1990. 
+                However, communities impacted by slavery waited over 160 years to see any formal recognition 
+                of its harms by the US or UK governments.
+            </span>
+            <img src="img/apology_timeline.png" alt="Timeline of major government apologies for historical injustices" />
+        </figure>
+        <p>
+            Paper is available <a href="https://drive.google.com/file/d/1fNpoBoWx7TbuJcFoeFePgJxu7mlgpw_n/view?usp=sharing">here</a>. <i>December 2023.</i>
+        </p>
+        <h3>
+            Dog Bans and Property Rights
+        </h3>
+        <p>
+            I wrote a case for the Harvard Business School course <i>Market Perspectives</i> 
+            on how dog bans illustrate differences in the handling of property rights, liability, and enforcement around the world.
+            In the class, students explored the limits of government regulation on potentially hazardous goods and activities.
+        </p>
+        <p>
+            Paper available here. <i>November 2023.</i>
+        </p>
+    </section>
 </body>
 </html>
